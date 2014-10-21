@@ -1,0 +1,204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rank a Brand Mobile\n"
+"POT-Creation-Date: 2012-12-14 15:35+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Coen <co.dejong@gmail.com>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../aboutus.php:3 ../../../brands.php:38 ../../../search.php:4
+#: ../../../sectors.php:12 ../../../sectors.php:40 ../../../singlebrand.php:11
+msgid "Terug"
+msgstr "Zurück"
+
+#: ../../../aboutus.php:4 ../../../views/footer-navbar.php:7
+msgid "Over Ons"
+msgstr "Über uns"
+
+#: ../../../aboutus.php:10
+msgid ""
+"Deze app is een initiatief van Rank a Brand, de grootste duurzame "
+"merkenvergelijkingssite van Europa. Hier vind je een gemakkelijk overzicht "
+"van belangrijke consumentenmerken en hun score op het gebied van "
+"duurzaamheid. De app bevat meer dan 800 merken in verschillende sectoren, "
+"waaronder kleding, elektronica, reizen, telecom en eten&amp;drinken."
+msgstr ""
+"Dies ist eine App von Rank a Brand, Europas größter Vergleichswebsite zur "
+"Nachhaltigkeit mit über 800 untersuchten Marken aus den verschiedensten "
+"Branchen, u.a. Mode, Elektronik oder Lebensmittel. Rank a Brand hilft Dir "
+"nachhaltige Marken zu kaufen."
+
+#: ../../../aboutus.php:14
+msgid ""
+"Omdat Rank a Brand in het nieuws komt en consumenten kiezen voor de "
+"bestscorende merken, stimuleren wij samen dat merken beter presteren op "
+"duurzame thema's als milieubeleid, klimaatbeleid en arbeidsomstandigheden. "
+"Meer weten? Kijk op <a href=\"http://www.rankabrand.nl\">www.rankabrand.nl</"
+"a>."
+msgstr ""
+"Rank a Brand untersucht wie fair, klima- und umweltfreundlich populäre "
+"Marken sind. Unser Ziel ist es zu sensibilisieren: Markenhersteller für "
+"Transparenz und Nachhaltigkeit. Verbraucher für Verantwortung und "
+"Einflusskraft.  Mehr wissen? Informier Dich hier: <a href=\"http://www."
+"rankabrand.de\"> www.rankabrand.de </ a>."
+
+#: ../../../aboutus.php:21
+msgid ""
+"Deze applicatie is gemaakt met ondersteuning van Hivos (Humanistisch "
+"Instituut voor Ontwikkelingssamenwerking), op basis van een gedeelde visie: "
+"een eerlijke, vrije en duurzame wereld."
+msgstr ""
+"Die Entwicklung unserer App wurde von 'Hivos - people unlimited' "
+"unterstützt. Hivos ist eine Entwicklungshilfeorganisation, die sich wie wir "
+"für eine faire, freie und nachhaltige Welt engagiert."
+
+#: ../../../aboutus.php:26
+msgid ""
+"De applicatie is technisch ontwikkeld door Tjerk Feitsma en Coen de Jong van "
+"<a href=\"http://terrafutura.nl\">stichting Terra Futura."
+msgstr ""
+"Die App wurde von Tjerk Feitsma und Coen de Jong <a href=\"http://"
+"terrafutura.nl\"> von der Stichting Terra Futura entwickelt."
+
+#: ../../../search.php:7
+msgid "Zoek op merknaam..."
+msgstr "Suche nach Marke..."
+
+#: ../../../sectors.php:13 ../../../views/footer-navbar.php:5
+msgid "Sectoren"
+msgstr "Sektoren"
+
+#: ../../../singlebrand.php:15
+msgid "Delen"
+msgstr "Teilen"
+
+#: ../../../singlebrand.php:16
+msgid "Vergelijk"
+msgstr "Vergleichen"
+
+#: ../../../singlebrand.php:19
+msgid "Rank a Brand score"
+msgstr "Rank a Brand Bewertung"
+
+#: ../../../singlebrand.php:22 ../../../singlebrand.php:33
+msgid "van"
+msgstr "von"
+
+#: ../../../singlebrand.php:26
+msgid "Score Rapport"
+msgstr "Ergebnisbericht"
+
+#: ../../../singlebrand.php:41
+msgid "Info"
+msgstr "Info"
+
+#: ../../../singlebrand.php:44
+msgid "Eigenaar"
+msgstr "Markeneigner"
+
+#: ../../../singlebrand.php:48
+msgid "Hoofdkantoor"
+msgstr "Hauptsitz"
+
+#: ../../../singlebrand.php:52
+msgid "Sector"
+msgstr "Sektor"
+
+#: ../../../singlebrand.php:56
+msgid "Categorieën"
+msgstr "Kategorien"
+
+#: ../../../singlebrand.php:60
+msgid "Tags"
+msgstr "Tags"
+
+#: ../../../singlebrand.php:64
+msgid "Meer info"
+msgstr "Mehr Info"
+
+#: ../../../singlebrand.php:71
+msgid "Deel via:"
+msgstr "Teilen via:"
+
+#: ../../../singlebrand.php:72
+#, php-format
+msgid "%s krijgt een %s-label op Rank a Brand!"
+msgstr "%s bekommt ein %s-Label bei Rank a Brand!"
+
+#: ../../../singlebrand.php:72
+#, php-format
+msgid ""
+"Hoi! Ik wil het merk %s met je delen op Rank a Brand. Daar krijgt dit merk "
+"een %s-label. Nieuwsgierig geworden? Check jouw favoriete merken op http://"
+"rankabrand.nl!"
+msgstr ""
+"Hey! Schau wie %s bei Rank a Brand gerankt wurde. Zur Transparenz und "
+"Nachhaltigkeit bekommt sie ein %s-Label. Noch mehr Infos gibt´s auf http://"
+"rankabrand.de!"
+
+#: ../../../singlebrand.php:72
+msgid "E-mail"
+msgstr "E-Mail"
+
+#: ../../../singlebrand.php:73
+msgid "SMS"
+msgstr "SMS"
+
+#: ../../../singlebrand.php:74
+#, php-format
+msgid ""
+"%s krijgt 'n %s op Rank a Brand voor duurzaamheid. Nieuwsgierig naar jouw "
+"favoriete merken? http://rankabrand.nl"
+msgstr ""
+"%s bekommt ein %s bei Rank a Brand zur Nachhaltigkeit. Willst du wissen wie "
+"gut andere Marken sind? http://rankabrand.de!"
+
+#: ../../../singlebrand.php:75
+#, php-format
+msgid "%s op Rank a Brand"
+msgstr "%s bei Rank a Brand"
+
+#: ../../../singlebrand.php:75 ../../../views/header.php:31
+msgid ""
+"Rank a Brand helpt je bij het kopen van duurzame merken. Hoe maatschappelijk "
+"verantwoord zijn populaire merken als Apple, Nokia en Nike? Rank a Brand "
+"beoordeelt de duurzaamheid van merken zodat u hun prestaties kunt "
+"vergelijken."
+msgstr ""
+"Rank a Brand hilft dir beim Kaufen nachhaltiger Marken. Wie fair, klima- und "
+"umweltfreundlich sind Apple, Nutella oder Puma? Rank a Brand untersucht die "
+"Marken und ermöglicht dir den Vergleich."
+
+#: ../../../views/footer-navbar.php:6
+msgid "Zoeken"
+msgstr "Suchen"
+
+#: ../../../views/header.php:30
+msgid "Rank a Brand | Vergelijk de duurzaamheid van merken | koop duurzaam"
+msgstr ""
+"Rank a Brand | Vergleiche die Nachhaltigkeit von Marken | Kaufe nachhaltig"
+
+#: ../../../views/header.php:32
+msgid ""
+"transparant, groen, fair, merken, MVO, bedrijven, transparantie, "
+"maatschappelijk verantwoord ondernemen, ethisch ondernemen"
+msgstr ""
+"transparant, grün, fair, marken, CSR, unternehmen, transparenz, "
+"unternehmensverantwortung, ethisch wirtschaften"
+
+#: ../../../views/header.php:63
+msgid ""
+"U gebruikt een <strong>verouderde</strong> browser. Upgrade uw browser of "
+"activeer Google Chrome Frame om uw ervaring te verbeteren."
+msgstr ""
+"Du nutzt einen <strong>veralteten</strong> Browser. Bitte aktualisiere "
+"Deinen Browser oder aktiviere Google Chrome Frame für eine bestmögliche "
+"Nutzbarkeit."

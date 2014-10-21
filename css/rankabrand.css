@@ -1,0 +1,450 @@
+#rabloading { width: 100%; height: 100%; padding-top: 100px; background: #FFF; z-index: 9999; position: absolute; }
+#rabloading > img { display: block; margin: 43px auto 0 auto; top: 50%; z-index: 1000000; }
+
+
+.brand.template { display: none; }  
+.brand .brandname { display: inline-block; overflow: hidden; text-overflow: ellipsis; width: 48%; }
+
+.brandrank { float: right; width: 50%; }
+.brandrank-grade { line-height: 26px; font-size: 18px; }
+.brandrank-percentage { border-radius: 5px; display: inline-block; height: 14px; }
+.brandrank-rankbgcolor-A { background-color: #70C63D; }
+.brandrank-rankbgcolor-B { background-color: #ABE664; }
+.brandrank-rankbgcolor-C { background-color: #E6D900; }
+.brandrank-rankbgcolor-D { background-color: #E69200; }
+.brandrank-rankbgcolor-E { background-color: #D43D00; }
+.brandrank-rankcolor-A { color: #70C63D;  }
+.brandrank-rankcolor-B { color: #ABE664; }
+.brandrank-rankcolor-C { color: #E6D900; }
+.brandrank-rankcolor-D { color: #E69200; }
+.brandrank-rankcolor-E { color: #D43D00; }
+
+/* Individual brand page */
+#brandlogo { display: block; margin: 0 auto; max-width: 250px; }
+h5.rabscore { margin-bottom: 0; }
+#singlebrand .scorecard { overflow: auto; }
+#singlebrand .scorerapport { margin-bottom: 0; }
+#singlebrand hr { margin: 0; }
+#singlebrand .brandrank { float: left; width: 80%; }
+#singlebrand .brandrank-text { float: left; width: 20%; font-size: 10pt; }  
+#singlebrand .subscore-title { font-weight: bold; margin: 10px 0 0 0; } 
+
+.brandinfo { margin-bottom: 0; }
+.infoitem { overflow: auto; margin-top: 5px; }
+.infoitem-title { float: left; width: 33%; margin: 5px 0; }
+.infoitem-value { float: left; width: 67%; font-size: 10pt; margin: 5px 0; }
+
+.ui-btn-active {
+border: 1px solid #2373A5;
+background: #237b94;
+font-weight: bold;
+cursor: pointer;
+color:white;
+text-shadow: 0 1px 1px #3373A5;
+text-decoration: none;
+background-image: -webkit-gradient(linear,left top,left bottom,from( #237b94 ),to( #133F4A ));
+background-image: -webkit-linear-gradient( #237b94,#133F4A );
+background-image: -moz-linear-gradient( #237b94,#133F4A );
+background-image: -ms-linear-gradient( #237b94,#133F4A );
+background-image: -o-linear-gradient( #237b94,#133F4A );
+background-image: linear-gradient( #237b94,#133F4A );
+
+}
+
+
+.ui-li-divider {
+
+font-size: 18px;
+background: #237b94;
+
+}
+
+
+.ui-mini  {
+    
+    color: #237b94;
+}
+
+
+
+.ui-listview-filter {
+background: #237B94;
+    
+}
+
+
+
+
+
+.ui-li.ui-btn{margin:0;
+background-color:rgba(252, 252, 252, 0.6);
+background-image: -moz-radial-gradient(2% 50%, ellipse farthest-side, white, rgba(248, 245, 236, 0.6) 79%);
+background-image: -webkit-radial-gradient(22% 50%, ellipse farthest-side, white, rgba(248, 245, 236, 0.6) 79%);
+background-image: -o-radial-gradient(22% 50%, ellipse farthest-side, white, rgba(248, 245, 236, 0.6) 78%);
+background-image: -ms-radial-gradient(22% 50%, ellipse farthest-side, white, rgba(248, 245, 236, 0.6) 78%);
+background-image: radial-gradient(22% 50%, ellipse farthest-side, white, rgba(248, 245, 236, 0.6) 78%);
+}
+
+.ui-body-a,.ui-body-a input,.ui-body-a select,.ui-body-a textarea,.ui-body-a button,
+.ui-btn-up-a,.ui-btn-hover-a,.ui-btn-down-a,
+.ui-bar-a,.ui-bar-a input,.ui-bar-a select,.ui-bar-a textarea,.ui-bar-a button
+{
+font-family: "Droid Sans";
+}
+.ui-bar-b,.ui-bar-b input,.ui-bar-b select,.ui-bar-b textarea,.ui-bar-b button,
+.ui-btn-up-b,.ui-btn-hover-b,.ui-btn-down-b,
+.ui-body-b,.ui-body-b input,.ui-body-b select,.ui-body-b textarea,.ui-body-b button
+{
+font-family: "Droid Sans";
+}
+
+
+
+
+.ui-bar-c,.ui-bar-c input,.ui-bar-c select,.ui-bar-c textarea,.ui-bar-c button,
+.ui-body-c,.ui-body-c input,.ui-body-c select,.ui-body-c textarea,.ui-body-c button,
+.ui-btn-up-c,.ui-btn-hover-c,.ui-btn-down-c
+{
+font-family: "Droid Sans";
+}
+
+
+.ui-bar-d,.ui-bar-d input,.ui-bar-d select,.ui-bar-d textarea,.ui-bar-d button,
+.ui-body-d,.ui-body-d input,.ui-body-d select,.ui-body-d textarea,.ui-body-d button,
+.ui-btn-up-d,.ui-btn-hover-d,.ui-btn-down-d
+{
+font-family: "Droid Sans";
+}
+
+.ui-bar-e,.ui-bar-e input,.ui-bar-e select,.ui-bar-e textarea,.ui-bar-e button,
+.ui-body-e,.ui-body-e input,.ui-body-e select,.ui-body-e textarea,.ui-body-e button,
+.ui-btn-up-e,.ui-btn-hover-e,.ui-btn-down-e
+{
+font-family: "Droid Sans";
+}
+
+p, pre
+
+
+
+{
+font-family: "Droid Sans";
+}
+
+
+
+code,
+kbd,
+pre,
+samp,html, button, input, select, textarea
+
+
+{
+font-family: "Droid Sans";
+}
+
+
+.brandlogo
+{
+border:1px solid gray;
+margin-left:auto;
+margin-right:auto;
+width:90%;
+background-color:white;
+text-align:left;
+padding:8px;
+}
+
+
+
+.ui-content {
+background: #ffffff;
+}
+
+
+
+.ui-li-static{
+background-image: -moz-radial-gradient(2% 50%, ellipse farthest-side, white, rgba(248, 245, 236, 0.6) 79%);
+background-image: -webkit-radial-gradient(22% 50%, ellipse farthest-side, white, rgba(248, 245, 236, 0.6) 79%);
+background-image: -o-radial-gradient(22% 50%, ellipse farthest-side, white, rgba(248, 245, 236, 0.6) 78%);
+background-image: -ms-radial-gradient(22% 50%, ellipse farthest-side, white, rgba(248, 245, 236, 0.6) 78%);
+background-image: radial-gradient(22% 50%, ellipse farthest-side, white, rgba(248, 245, 236, 0.6) 78%);
+
+}
+
+
+.ui-header .ui-btn
+ {
+    border: 2px solid white;
+    background: #154e5c;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 1px rgb(17, 17, 17);
+	padding-right: 2px;
+}
+
+.ui-bar-a {
+    border: 2px solid rgb #237b94;
+    background: linear-gradient(rgb(240, 240, 240), #2373A5) repeat scroll 0% 0% rgb(218, 38, 238);
+}
+
+.ui-header {
+    background: none repeat scroll 0% 0% rgb(35, 123, 148);
+}
+
+.ui-bar-a {
+    border: 1px solid rgb(35, 115, 165);
+background: rgb(163,191,198); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(163,191,198,1) 0%, rgba(35,123,148,1) 49%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(163,191,198,1)), color-stop(49%,rgba(35,123,148,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(163,191,198,1) 0%,rgba(35,123,148,1) 49%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(163,191,198,1) 0%,rgba(35,123,148,1) 49%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(163,191,198,1) 0%,rgba(35,123,148,1) 49%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(163,191,198,1) 0%,rgba(35,123,148,1) 49%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3bfc6', endColorstr='#237b94',GradientType=0 ); /* IE6-9 */ }
+
+.ui-bar-b
+{
+border: 1px solid #2373A5;
+background: #237b94;
+background-image: -webkit-gradient(linear,left top,left bottom,from( #237b94 ),to( #133F4A ));
+background-image: -webkit-linear-gradient( #237b94,#133F4A );
+background-image: -moz-linear-gradient( #237b94,#133F4A );
+background-image: -ms-linear-gradient( #237b94,#133F4A );
+background-image: -o-linear-gradient( #237b94,#133F4A );
+background-image: linear-gradient( #237b94,#133F4A );
+
+}
+
+
+
+
+.ui-bar-c {
+    border: 1px solid #237b94;
+	background: rgb(163,191,198); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(163,191,198,1) 0%, rgba(35,123,148,1) 49%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(163,191,198,1)), color-stop(49%,rgba(35,123,148,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(163,191,198,1) 0%,rgba(35,123,148,1) 49%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(163,191,198,1) 0%,rgba(35,123,148,1) 49%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(163,191,198,1) 0%,rgba(35,123,148,1) 49%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(163,191,198,1) 0%,rgba(35,123,148,1) 49%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3bfc6', endColorstr='#237b94',GradientType=0 ); /* IE6-9 */
+	}
+
+
+}
+.ui-bar-c
+{
+border: 1px solid #237b94;
+
+background-image: -webkit-gradient(linear,left top,left bottom,from( #237b94 ),to( #133F4A ));
+background-image: -webkit-linear-gradient( #237b94,#f8f5ec );
+background-image: -moz-linear-gradient( #237b94,#f8f5ec );
+background-image: -ms-linear-gradient( #237b94,#f8f5ec );
+background-image: -o-linear-gradient( #237b94,#f8f5ec );
+background-image: linear-gradient( #237b94,#f8f5ec );
+
+}
+
+
+.ui-li .ui-btn-text a.ui-link-inherit { color:black;
+text-shadow:none;}
+
+.ui-mobile .ui-btn-left, .ui-mobile .ui-btn-right {
+margin: 2px;
+}
+
+.ui-body-b .ui-link-inherit
+{color:red;}
+
+
+a:hover,a:active
+{
+color:grey;
+  font-weight:bold;
+  text-decoration:none;
+}
+ 
+	.ui-body-c .ui-link-inherit
+{	color: #333;}
+
+		
+	
+a:link,a:visited
+{
+font-weight:bold;
+text-decoration:none;
+}
+
+
+.ui-body-c .ui-link:hover {
+color: #b0175f;
+}
+.ui-body-c .ui-link:visited {
+color: #282828;
+}
+.ui-body-c .ui-link {
+color: #b0175f;
+font-weight: bold;
+}
+
+/* Add to Home Screen plugin styles */
+
+/**
+ *
+ * Main container
+ *
+ */
+#addToHomeScreen {
+	z-index:9999;
+	-webkit-user-select:none;
+	-webkit-box-sizing:border-box;
+	width:240px;
+	font-size:15px;
+	padding:12px 14px;
+	text-align:left;
+	font-family:helvetica;
+	background-image:-webkit-gradient(linear,0 0,0 100%,color-stop(0,#fff),color-stop(0.02,#eee),color-stop(0.98,#ccc),color-stop(1,#a3a3a3));
+	border:1px solid #505050;
+	-webkit-border-radius:8px;
+	-webkit-background-clip:padding-box;
+	color:#333;
+	text-shadow:0 1px 0 rgba(255,255,255,0.75);
+	line-height:130%;
+	-webkit-box-shadow:0 0 4px rgba(0,0,0,0.5);
+}
+
+#addToHomeScreen.addToHomeIpad {
+	width:268px;
+	font-size:18px;
+	padding:14px;
+}
+
+/**
+ *
+ * The 'wide' class is added when the popup contains the touch icon
+ *
+ */
+#addToHomeScreen.addToHomeWide {
+	width:296px;
+}
+
+#addToHomeScreen.addToHomeIpad.addToHomeWide {
+	width:320px;
+	font-size:18px;
+	padding:14px;
+}
+
+/**
+ *
+ * The balloon arrow
+ *
+ */
+#addToHomeScreen .addToHomeArrow {
+	position:absolute;
+	background-image:-webkit-gradient(linear,0 0,100% 100%,color-stop(0,rgba(204,204,204,0)),color-stop(0.4,rgba(204,204,204,0)),color-stop(0.4,#ccc));
+	border-width:0 1px 1px 0;
+	border-style:solid;
+	border-color:#505050;
+	width:16px; height:16px;
+	-webkit-transform:rotateZ(45deg);
+	bottom:-9px; left:50%;
+	margin-left:-8px;
+	-webkit-box-shadow:inset -1px -1px 0 #a9a9a9;
+	-webkit-border-bottom-right-radius:2px;
+}
+
+
+/**
+ *
+ * The balloon arrow for iPad
+ *
+ */
+#addToHomeScreen.addToHomeIpad .addToHomeArrow {
+	-webkit-transform:rotateZ(-135deg);
+	background-image:-webkit-gradient(linear,0 0,100% 100%,color-stop(0,rgba(238,238,238,0)),color-stop(0.4,rgba(238,238,238,0)),color-stop(0.4,#eee));
+	-webkit-box-shadow:inset -1px -1px 0 #fff;
+	top:-9px; bottom:auto; left:50%;
+}
+
+
+/**
+ *
+ * Close button
+ *
+ */
+#addToHomeScreen .addToHomeClose {
+	-webkit-box-sizing:border-box;
+	position:absolute;
+	right:4px;
+	top:4px;
+	width:18px;
+	height:18px; line-height:14px;
+	text-align:center;
+	text-indent:1px;
+	-webkit-border-radius:9px;
+	background:rgba(0,0,0,0.12);
+	color:#707070;
+	-webkit-box-shadow:0 1px 0 #fff;
+	font-size:16px;
+}
+
+
+/**
+ *
+ * The '+' icon, displayed only on iOS < 4.2
+ *
+ */
+#addToHomeScreen .addToHomePlus {
+	font-weight:bold;
+	font-size:1.3em;
+}
+
+
+/**
+ *
+ * The 'share' icon, displayed only on iOS >= 4.2
+ *
+ */
+#addToHomeScreen .addToHomeShare {
+	display:inline-block;
+	width:18px;
+	height:15px;
+	background-repeat:no-repeat;
+	background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAPCAQAAABDj1eZAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAUdJREFUKFNtkLtLw1AYxS/qJLhXVKr2ZRulUNtiqgSb3CziICI6ucTFVYcOnaQOFRwUnNTRwUWXgpP/QdHNUEQUHGxofYBTlRs83iZNjKTncOGe7/vx3QchXUWn6FL3jhfKUdCCr5zuifV5oDiHQM+c+CIhiiCSWNu08iq9oHXKLAiqrgR4UXqlOEYZt++ExEL0wW7+OW0G10muLv9gmqfe5FAWKmTMYQYiFL7PYwyLOD8lSjNh2gdnPzMII4QUBxc4OothbAF7GCBKQ0YbSWyPQsIhqvetS+y0ygGMo/KFZfviDvR4AhwgZU9dGYnA0J/6ndc15i3ouYIMcVVUcEXIoOxCeRCfwP8sXBSdjtpUv/1QW+K16kCCIUC4id9Fa0JtkluwVkSfqPL6RwfSDA0aNlx7k/bWgViB7bMS2/1vk5sdsZLN/ALSuL3tylO4RAAAAABJRU5ErkJggg==);
+	background-size:18px 15px;
+	text-indent:-9999em;
+	overflow:hidden;
+}
+
+
+/**
+ *
+ * The touch icon (if available)
+ *
+ */
+#addToHomeScreen .addToHomeTouchIcon {
+	display:block;
+	float:left;
+	-webkit-border-radius:6px;
+	-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5),
+		inset 0 0 2px rgba(255,255,255,0.9);
+	background-repeat:no-repeat;
+	width:57px; height:57px;
+	-webkit-background-size:57px 57px;
+	margin:0 12px 0 0;
+	border:1px solid #333;
+	-webkit-background-clip:padding-box;
+}
+
+
+/**
+ *
+ * The 'share' icon for retina display
+ *
+ */
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+	#addToHomeScreen .addToHomeShare {
+		background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAeCAQAAADu6HTYAAADPElEQVR4Xq3TX2gcRRzA8e/M7mVv2+TSNpc/TZtrY6jUGqgaSAmEChKLrYK0YH0RFC2CSCkEfCghiKU04J8qNigq6os+iQV98MHWFwVBrQQRWs21lBw5cw3NNb1/udu72RGG5Y77IzXW77D7sAwf5scyYoL6BGXSDKFZwaGpLvIUaeoCkvX1MmsM0Ny6oRSQYOLuIS+YZOpfQdqslpUxcZrzTVAz4qPwW2O3CeIwC/RSzeY6Ow1QhUrkr+YOWfEKDkEP8Rij7CHKJmrFSDHBdwGEE5wiGChPN+PnT8VdRtEIl1d4gRj/1EVe5ZSBKGh8iqQpo/Fo5+3C/gz0MYg4zgwbqday1/Q4B8BGQ45d/Hi54lakCrU5obOcidJpu1+Lg9whjabyaOYLnrIBFFaRD+xe2ybMDWY66GmP/WA9cGfGp0CWhy0wkMN8inepFiH2rV1j0NQSNQbFLRQnS8/8YSDBBpadfv4CYDub2fmeHDNAsL1MBWUel0iA+Xik6eHcyvD3vAMSU1TGuA/YRS+dD7ovCQN43GKRFCU20Kd3V/avDVVyAZ5niTEuLA5/zBGWg9EEEhfJKN200Tat8CmRAQb9+wv7soPlHt2tQorsz1uPbr0HTY4sJwrH47zJZwABBAKLMBoQXepwgTwdHCo+fXMkQ4lrxEmQ5AaXipPqDY9V2vn09tgvTPI71EEGYxM+/uMJLJ4svpgaWGKOi/xKgmqLSUGSUd5f2vIVJ/CgBaTIUsZ7ZBsn0+NzfMOXLFCXQyTcybN6ep5ZZgUOHn7jpfUpsZshdugPGf+E5zjbyHTSRyQ8xfRPPM/s63RHeuknSoT22mjmmnAOIMkUZ6D1xSfPPAfd1WFKM3sO2CMaHx8M1NjnXKHaAGGkOW0C02WeYHUz4qMtx+w5gUDS8NckYe5lHsMYwCZEPyEEmjLDZFmAS7CDviMdxyTkMNVBKEmYLvbiQQBIBBbCQG04bGQvFWz6CfsCQLWCigILFwcfkGYBiOpbYuOizTAyYyDdCtrGaRG1LCkIgMYEFhI0WqQZoSlbGRyHKe4qOx7iv2bVQW9dp4dlM/x6kmwnWQcd/Q3FCqwTEiT5s+6D5v/pb0SSHyg7uhMWAAAAAElFTkSuQmCC);
+	}
+}
